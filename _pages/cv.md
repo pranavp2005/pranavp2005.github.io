@@ -18,7 +18,8 @@ Experience
 
 Education
 ======
-- TODO
+- M.S. in Computer Science, Stony Brook University — TODO (year)
+- B.E. in Computer Science, BITS Pilani — TODO (year)
 
 Skills
 ======
