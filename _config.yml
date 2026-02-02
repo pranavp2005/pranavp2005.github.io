@@ -233,6 +233,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  books:
+    output: true
+    permalink: /books/:path/
+  papers:
+    output: true
+    permalink: /papers/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -290,6 +296,20 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _books
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: single
+      author_profile: true
+  # _papers
+  - scope:
+      path: ""
+      type: papers
+    values:
+      layout: single
+      author_profile: true
 
 
 # Sass/SCSS

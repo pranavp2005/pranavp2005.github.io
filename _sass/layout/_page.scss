@@ -475,3 +475,15 @@
   font-size: 0.9rem;
   color: var(--global-text-color);
 }
+
+
+.bookshelf__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.bookshelf__link:hover .bookshelf__card {
+  transform: translateY(-4px);
+  transition: transform 0.15s ease;
+}

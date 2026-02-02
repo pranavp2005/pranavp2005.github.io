@@ -1,33 +1,5 @@
-# Bookshelf entries
-# Add items like:
-# - title: "Designing Data Intensive Systems"
-#   author: "Martin Kleppmann"
-#   status: "Reading"  # Read | Reading | Queued
-#   image: "images/bookshelf/designing-data-intensive-systems.png"
-#   notes: "Short notes or links"
-
-books:
-  - title: "Designing Data Intensive Systems"
-    author: ""
-    status: "Queued"
-    image: "images/bookshelf/designing-data-intensive-systems.png"
-    notes:
-
-  - title: "Database Internals"
-    author: ""
-    status: "Queued"
-    image: "images/bookshelf/database-internals.png"
-    notes:
-
-papers:
-  - title: "MultiPaxos made complete"
-    author: ""
-    status: "Read"
-    image: "images/bookshelf/multipaxos-made-complete.png"
-    notes:
-
-  - title: "PBFT"
-    author: ""
-    status: "Read"
-    image: "images/bookshelf/pbft.png"
-    notes:
+# Deprecated: bookshelf now uses collections for clickable items.
+# Add books in _books/ and papers in _papers/ instead.
+# Example:
+# _books/designing-data-intensive-systems.md
+# _papers/pbft.md
