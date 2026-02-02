@@ -399,3 +399,79 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Bookshelf */
+
+.bookshelf__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.bookshelf__card {
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--global-bg-color);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.bookshelf__cover {
+  position: relative;
+  background: #f2f2f2;
+}
+
+.bookshelf__cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.bookshelf__status {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.45rem 0.6rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: #7e57c2;
+}
+
+.bookshelf__status--read {
+  background: #2e7d32;
+}
+
+.bookshelf__status--reading {
+  background: #1565c0;
+}
+
+.bookshelf__status--queued {
+  background: #7e57c2;
+}
+
+.bookshelf__meta {
+  padding: 0.85rem 0.9rem 1rem;
+}
+
+.bookshelf__title {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.bookshelf__author {
+  margin: 0 0 0.6rem;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+.bookshelf__notes {
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+}
