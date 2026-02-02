@@ -29,19 +29,20 @@ No books yet. (Add items in the `_books/` collection.)
     {% assign cover = "/images/500x300.png" | prepend: base_path %}
   {% endif %}
   {% assign status = item.status | default: "Queued" | downcase %}
+  {% assign item_link = item.url | prepend: base_path %}
 
-  <a class="bookshelf__link" href="{{ base_path }}{{ item.url }}">
-    <article class="bookshelf__card">
+  <article class="bookshelf__card">
+    <a class="bookshelf__link bookshelf__link--block" href="{{ item_link }}">
       <div class="bookshelf__cover">
         <img src="{{ cover }}" alt="{{ item.title }} cover" loading="lazy">
         <span class="bookshelf__status bookshelf__status--{{ status }}">{{ item.status | default: "Queued" }}</span>
       </div>
-      <div class="bookshelf__meta">
-        <h3 class="bookshelf__title">{{ item.title }}</h3>
-        {% if item.author %}<p class="bookshelf__author">{{ item.author }}</p>{% endif %}
-      </div>
-    </article>
-  </a>
+    </a>
+    <div class="bookshelf__meta">
+      <h3 class="bookshelf__title"><a class="bookshelf__link" href="{{ item_link }}">{{ item.title }}</a></h3>
+      {% if item.author %}<p class="bookshelf__author">{{ item.author }}</p>{% endif %}
+    </div>
+  </article>
 {% endfor %}
 </div>
 
@@ -67,19 +68,20 @@ No papers yet. (Add items in the `_papers/` collection.)
     {% assign cover = "/images/500x300.png" | prepend: base_path %}
   {% endif %}
   {% assign status = item.status | default: "Queued" | downcase %}
+  {% assign item_link = item.url | prepend: base_path %}
 
-  <a class="bookshelf__link" href="{{ base_path }}{{ item.url }}">
-    <article class="bookshelf__card">
+  <article class="bookshelf__card">
+    <a class="bookshelf__link bookshelf__link--block" href="{{ item_link }}">
       <div class="bookshelf__cover">
         <img src="{{ cover }}" alt="{{ item.title }} cover" loading="lazy">
         <span class="bookshelf__status bookshelf__status--{{ status }}">{{ item.status | default: "Queued" }}</span>
       </div>
-      <div class="bookshelf__meta">
-        <h3 class="bookshelf__title">{{ item.title }}</h3>
-        {% if item.author %}<p class="bookshelf__author">{{ item.author }}</p>{% endif %}
-      </div>
-    </article>
-  </a>
+    </a>
+    <div class="bookshelf__meta">
+      <h3 class="bookshelf__title"><a class="bookshelf__link" href="{{ item_link }}">{{ item.title }}</a></h3>
+      {% if item.author %}<p class="bookshelf__author">{{ item.author }}</p>{% endif %}
+    </div>
+  </article>
 {% endfor %}
 </div>
 
