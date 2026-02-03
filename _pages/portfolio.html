@@ -11,7 +11,12 @@ author_profile: true
 
 <div class="archive">
   <div class="projects__grid">
-    {% assign projects = site.collections['portfolio'].docs | sort: 'title' %}
+    {% assign projects = site.portfolio %}
+    {% if projects %}
+      {% assign projects = projects | sort: 'title' %}
+    {% else %}
+      {% assign projects = "" | split: "," %}
+    {% endif %}
     {% for post in projects %}
       {% include archive-single.html type="grid" %}
     {% endfor %}
