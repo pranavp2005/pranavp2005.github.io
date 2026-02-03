@@ -11,7 +11,8 @@ author_profile: true
 
 <div class="archive">
   <div class="grid__wrapper">
-    {% for post in site.portfolio %}
+    {% assign projects = site.collections['portfolio'].docs | sort: 'title' %}
+    {% for post in projects %}
       {% include archive-single.html type="grid" %}
     {% endfor %}
   </div>
