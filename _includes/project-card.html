@@ -1,0 +1,25 @@
+{% include base_path %}
+
+{% assign teaser = post.header.teaser | default: post.teaser | default: site.teaser %}
+
+{% if teaser %}
+  {% if teaser contains "://" %}
+    {% assign teaser_url = teaser %}
+  {% else %}
+    {% assign teaser_url = teaser | prepend: "/images/" | prepend: base_path %}
+  {% endif %}
+{% endif %}
+
+<article class="project-card">
+  {% if teaser %}
+    <a class="project-card__media" href="{{ base_path }}{{ post.url }}" aria-label="{{ post.title }}">
+      <img src="{{ teaser_url }}" alt="{{ post.title }} preview" loading="lazy">
+    </a>
+  {% endif %}
+  <h2 class="project-card__title">
+    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+  {% if post.excerpt %}
+    <p class="project-card__excerpt">{{ post.excerpt | markdownify | strip_html }}</p>
+  {% endif %}
+</article>

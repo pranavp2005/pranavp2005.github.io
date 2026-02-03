@@ -18,7 +18,7 @@ author_profile: true
       {% assign projects = "" | split: "," %}
     {% endif %}
     {% for post in projects %}
-      {% include archive-single.html type="grid" %}
+      {% include project-card.html post=post %}
     {% endfor %}
   </div>
 </div>

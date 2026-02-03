@@ -11,30 +11,22 @@ redirect_from:
 {% include base_path %}
 
 <div class="resume__layout">
-  <div class="resume__main">
+  <div class="resume__main" markdown="1">
 
 You can download a PDF version here: [Resume PDF]({{ base_path }}/files/resume.pdf)
 
-Experience
-======
-{: #experience}
+## Experience {#experience}
 - TODO
 
-Education
-======
-{: #education}
+## Education {#education}
 - M.S. in Computer Science, Stony Brook University — TODO (year)
 - B.E. in Computer Science, BITS Pilani — TODO (year)
 
-Skills
-======
-{: #skills}
+## Skills {#skills}
 - Distributed systems, consensus (Multi-Paxos, PBFT)
 - Backend engineering (TODO: add languages/frameworks)
 
-Selected projects
-======
-{: #selected-projects}
+## Selected projects {#selected-projects}
 - [Projects]({{ base_path }}/projects/)
 
   </div>
