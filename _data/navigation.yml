@@ -5,14 +5,14 @@ main:
   - title: "About"
     url: /
 
+  - title: "Resume"
+    url: /resume/
+
   - title: "Projects"
     url: /projects/
 
   - title: "Blog"
     url: /year-archive/
-
-  - title: "Resume"
-    url: /resume/
 
   - title: "Bookshelf"
     url: /bookshelf/
