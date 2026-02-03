@@ -2,6 +2,7 @@
 title: "PBFT"
 collection: portfolio
 excerpt: "A fault-tolerant banking app using PBFT for SMR in a Byzantine environment."
+teaser: projects/pbft.png
 header:
   teaser: projects/pbft.png
 ---

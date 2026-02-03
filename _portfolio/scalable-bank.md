@@ -2,6 +2,7 @@
 title: "Scalable Bank"
 collection: portfolio
 excerpt: "Scalable fault-tolerant banking with dynamic sharding + 2PC for cross-shard operations."
+teaser: projects/scalable-bank.png
 header:
   teaser: projects/scalable-bank.png
 ---

@@ -2,6 +2,7 @@
 title: "Multi Paxos"
 collection: portfolio
 excerpt: "A fault-tolerant banking app using Multi-Paxos for state machine replication."
+teaser: projects/multi-paxos.png
 header:
   teaser: projects/multi-paxos.png
 ---
