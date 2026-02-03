@@ -10,7 +10,7 @@ author_profile: true
 {% include base_path %}
 
 <div class="archive">
-  <div class="grid__wrapper">
+  <div class="projects__grid">
     {% assign projects = site.collections['portfolio'].docs | sort: 'title' %}
     {% for post in projects %}
       {% include archive-single.html type="grid" %}

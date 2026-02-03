@@ -27,6 +27,23 @@
   }
 }
 
+/*
+   Projects grid (left-aligned)
+   ========================================================================== */
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  justify-items: start;
+}
+
+.projects__grid .grid__item {
+  float: none;
+  width: auto;
+  margin: 0;
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
