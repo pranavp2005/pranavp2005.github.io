@@ -200,9 +200,17 @@
 
 @media screen and (min-width: 1024px) {
   .resume__layout {
-    grid-template-columns: 1fr 220px;
+    grid-template-columns: minmax(0, 1fr) 220px;
     align-items: start;
   }
+}
+
+.resume__main {
+  grid-column: 1;
+}
+
+.resume__toc {
+  grid-column: 2;
 }
 
 .resume__toc {
