@@ -23,7 +23,7 @@ repository               : "pranavp2005/pranavp2005.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "my-image.jpg"
   name             : "Pranav Pateriya"
   pronouns         : # example: "she/her"  
   bio              : "I build reliable distributed systems and backend infrastructure."
