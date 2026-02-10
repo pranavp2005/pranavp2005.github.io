@@ -45,4 +45,4 @@ Currently, I'm working with Professor [Mohammad Javad Amiri's](https://www3.cs.s
 
 **Explore More**
 
-[Projects](/projects/) • [Resume](/resume/) • [Blog](/year-archive/) • [Contact](/contact/)
+[Projects](/projects/) • [Resume/CV](/resume/) • [Blog](/year-archive/) • [Contact](/contact/)

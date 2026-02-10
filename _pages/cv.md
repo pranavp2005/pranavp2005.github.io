@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: "Resume"
+title: "Resume/CV"
 permalink: /resume/
-author_profile: true
+author_profile: false
 redirect_from:
   - /cv/
   - /resume
@@ -11,6 +11,15 @@ redirect_from:
 {% include base_path %}
 
 <div class="resume__layout">
+  <aside class="resume__toc" aria-label="Resume sections">
+    <h3 class="resume__toc-title">Sections</h3>
+    <ul class="resume__toc-list">
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#selected-projects">Selected projects</a></li>
+    </ul>
+  </aside>
   <div class="resume__main" markdown="1">
 
 You can download a PDF version here: [Resume PDF]({{ base_path }}/files/resume.pdf)
@@ -30,13 +39,4 @@ You can download a PDF version here: [Resume PDF]({{ base_path }}/files/resume.p
 - [Projects]({{ base_path }}/projects/)
 
   </div>
-  <aside class="resume__toc" aria-label="Resume sections">
-    <h3 class="resume__toc-title">Sections</h3>
-    <ul class="resume__toc-list">
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#selected-projects">Selected projects</a></li>
-    </ul>
-  </aside>
 </div>

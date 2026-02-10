@@ -4,21 +4,20 @@ title: "Projects"
 permalink: /projects/
 redirect_from:
   - /portfolio/
-author_profile: true
+author_profile: false
+archive_class: projects-archive
 ---
 
 {% include base_path %}
 
-<div class="archive">
-  <div class="projects__grid">
-    {% assign projects = site.portfolio %}
-    {% if projects %}
-      {% assign projects = projects | sort: 'title' %}
-    {% else %}
-      {% assign projects = "" | split: "," %}
-    {% endif %}
-    {% for post in projects %}
-      {% include project-card.html post=post %}
-    {% endfor %}
-  </div>
+<div class="projects__grid">
+  {% assign projects = site.portfolio %}
+  {% if projects %}
+    {% assign projects = projects | sort: 'title' %}
+  {% else %}
+    {% assign projects = "" | split: "," %}
+  {% endif %}
+  {% for post in projects %}
+    {% include project-card.html post=post %}
+  {% endfor %}
 </div>
