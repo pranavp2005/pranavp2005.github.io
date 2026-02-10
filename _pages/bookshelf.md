@@ -2,7 +2,7 @@
 layout: single
 title: "Bookshelf"
 permalink: /bookshelf/
-author_profile: false
+author_profile: true
 ---
 
 {% include base_path %}
