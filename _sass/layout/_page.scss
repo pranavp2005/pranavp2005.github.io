@@ -263,7 +263,7 @@
   padding: 1rem 1.2rem;
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
-  background: var(--global-thead-color);
+  background: var(--global-bg-color);
   scrollbar-width: thin;
   scrollbar-color: var(--global-text-color-light) transparent;
 }
@@ -302,6 +302,17 @@
 .about-news__date {
   font-family: $sans-serif;
   font-weight: 700;
+}
+
+html[data-theme="dark"] .about-news {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--global-dark-border-color);
+  color: var(--global-text-color);
+  scrollbar-color: var(--global-border-color) transparent;
+}
+
+html[data-theme="dark"] .about-news::-webkit-scrollbar-thumb {
+  background: var(--global-border-color);
 }
 
 @include breakpoint(max-width $small) {
