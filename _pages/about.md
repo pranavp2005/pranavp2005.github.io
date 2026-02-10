@@ -16,28 +16,23 @@ Currently, I'm working with Professor [Mohammad Javad Amiri's](https://www3.cs.s
 
 ## News
 
+{% assign news_items = site.data.news.items | default: empty %}
+
 <div class="about-news" role="region" aria-label="Recent news and updates">
   <ul class="about-news__list">
-    <li class="about-news__item">
-      <span class="about-news__date">2026-02</span>
-      <span>Shared a new write-up on <a href="/posts/2026/02/verus1/">formal verification of Rust systems using Verus</a>.</span>
-    </li>
-    <li class="about-news__item">
-      <span class="about-news__date">2026-01</span>
-      <span>Continued research on consistency and isolation in databases with <a href="https://www3.cs.stonybrook.edu/~amiri/index.html">Prof. Mohammad Javad Amiri</a>'s group at Stony Brook University.</span>
-    </li>
-    <li class="about-news__item">
-      <span class="about-news__date">2025-08</span>
-      <span>Started the MS in Computer Science program at Stony Brook University, focusing on distributed systems and databases.</span>
-    </li>
-    <li class="about-news__item">
-      <span class="about-news__date">2025-05</span>
-      <span>Worked on large-scale platform and infrastructure engineering challenges with the Platform Team at <a href="https://www.dremio.com/">Dremio</a>.</span>
-    </li>
-    <li class="about-news__item">
-      <span class="about-news__date">2024-12</span>
-      <span>Contributed to secure and performant control-plane development with the team at <a href="https://www.datapelago.ai/">Datapelago</a>.</span>
-    </li>
+    {% if news_items == empty %}
+      <li class="about-news__item">
+        <span class="about-news__date">--</span>
+        <span>No updates yet.</span>
+      </li>
+    {% else %}
+      {% for item in news_items %}
+      <li class="about-news__item">
+        <span class="about-news__date">{{ item.date }}</span>
+        <span>{{ item.body | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+      </li>
+      {% endfor %}
+    {% endif %}
   </ul>
 </div>
 
