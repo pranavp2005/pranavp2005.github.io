@@ -24,16 +24,22 @@ redirect_from:
 
 You can download a PDF version here: [Resume PDF]({{ base_path }}/files/resume.pdf)
 
+## Summary {#summary}
+- Computer Science graduate student at Stony Brook University, specializing in computer systems and having 3+ years of professional experience. Passionate about scalable and reliable infrastructure engineering and high-performance big data systems. Available for internships for Summer 2026 and full-time roles starting May 2027
+
 ## Experience {#experience}
 - TODO
 
 ## Education {#education}
 - M.S. in Computer Science, Stony Brook University — TODO (year)
-- B.E. in Computer Science, BITS Pilani — TODO (year)
+- B.E. in Computer Science, BITS Pilani
 
 ## Skills {#skills}
 - Distributed systems, consensus (Multi-Paxos, PBFT)
 - Backend engineering (TODO: add languages/frameworks)
+
+## Interests {#interests}
+- [Projects]({{ base_path }}/projects/)
 
 ## Selected projects {#selected-projects}
 - [Projects]({{ base_path }}/projects/)
