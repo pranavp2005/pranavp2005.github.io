@@ -1,7 +1,7 @@
 ---
 title: "Scalable Bank"
 collection: portfolio
-excerpt: "Scalable fault-tolerant banking with dynamic sharding + 2PC for cross-shard operations."
+excerpt: "Scalable fault-tolerant banking using 2 Phase Commit for cross-shard operations and multi-paxos for fault tolerance."
 teaser: projects/scalable-bank.png
 header:
   teaser: projects/scalable-bank.png
