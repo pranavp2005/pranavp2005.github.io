@@ -9,7 +9,7 @@ header:
 
 A scalable fault-tolerant banking application using **Multi-Paxos** for **state machine replication**, with **dynamic sharding** based on workload and **2PC** for cross-shard transfers. Includes a **configurable cluster setup** and **configurable read consistency** (linearizable / quorum / eventual). Peak throughput: **~6,000 transactions/sec**.
 
-- GitHub: TODO (paste repo link)
+- GitHub: [Scalable Fault-tolerant banking service using 2PC and Multi-paxos](https://github.com/pranavp2005/ProjectShowcase/tree/main/CSE535-DistributedSystems/2PC)
 - Demo: TODO (optional)
 
 Notes
