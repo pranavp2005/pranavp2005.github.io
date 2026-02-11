@@ -246,8 +246,12 @@
 
   .resume__toc {
     grid-column: 1;
-    position: sticky;
-    top: 1.5rem;
+    position: fixed;
+    top: calc(#{$masthead-height} + 1rem);
+    width: 220px;
+    max-height: calc(100vh - #{$masthead-height} - 2rem);
+    overflow-y: auto;
+    z-index: 5;
   }
 
   .resume__main {
