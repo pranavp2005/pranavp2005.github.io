@@ -1,5 +1,6 @@
 ---
 title: "Scalable Retrieval with Project Gutenberg"
+order: 6
 collection: portfolio
 excerpt: "Built an embeddings-based retrieval prototype and a simplified HNSW-style ANN index; instrumented time/peak-memory to study scalability tradeoffs."
 teaser: projects/nanogpt-domain.png

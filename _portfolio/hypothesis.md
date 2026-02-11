@@ -1,5 +1,6 @@
 ---
 title: "Traffic Accident Detection & Tracking on Google Maps–Style Data"
+order: 8
 collection: portfolio
 excerpt: "End-to-end incident detection from noisy user reports + GPS-derived travel times using hypothesis tests, SPRT, ARIMA forecasting, and changepoint detection."
 teaser: projects/nanogpt-domain.pnge

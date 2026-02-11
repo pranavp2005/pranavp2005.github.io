@@ -1,5 +1,6 @@
 ---
 title: "Scalable Bank"
+order: 1
 collection: portfolio
 excerpt: "Scalable fault-tolerant banking using 2 Phase Commit for cross-shard operations and multi-paxos for fault tolerance."
 teaser: projects/scalable-bank.png

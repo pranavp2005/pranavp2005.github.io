@@ -1,5 +1,6 @@
 ---
 title: "Linear PBFT"
+order: 2
 collection: portfolio
 excerpt: "A replicated banking service implementing Linear PBFT (collector-based BFT) with PBFT view-change for Byzantine fault tolerance."
 teaser: projects/pbft.png

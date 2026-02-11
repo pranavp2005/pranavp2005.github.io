@@ -1,5 +1,6 @@
 ---
 title: "RAG Retrieval over the SciPy Codebase"
+order: 4
 collection: portfolio
 excerpt: "Built a scalable retrieval pipeline (chunk → embed → FAISS) to answer natural-language questions over SciPy’s docs and source code."
 teaser: projects/nanogpt-domain.png

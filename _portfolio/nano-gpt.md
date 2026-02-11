@@ -1,5 +1,6 @@
 ---
 title: "Domain-Specialized NanoGPT"
+order: 5
 collection: portfolio
 excerpt: "Trained and analyzed small NanoGPT models across Shakespeare/Wikipedia/Math with zero-shot + few-shot transfer, softmax confidence tracking, and Grad-CAM–style token attribution."
 teaser: projects/nanogpt-domain.png

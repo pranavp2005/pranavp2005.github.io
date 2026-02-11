@@ -13,7 +13,7 @@ archive_class: projects-archive
 <div class="projects__grid">
   {% assign projects = site.portfolio %}
   {% if projects %}
-    {% assign projects = projects | sort: 'title' %}
+    {% assign projects = projects | sort: 'order' %}
   {% else %}
     {% assign projects = "" | split: "," %}
   {% endif %}

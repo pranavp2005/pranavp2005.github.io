@@ -1,5 +1,6 @@
 ---
 title: "Rule-Based Toolformer (Tool-Using Chatbot)"
+order: 7
 collection: portfolio
 excerpt: "Built a simplified Toolformer-style assistant that routes queries to tools (math, maps, file search) and uses a lightweight local LLM to format tool outputs into user-friendly answers."
 teaser: projects/nanogpt-domain.png
