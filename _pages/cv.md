@@ -10,10 +10,10 @@ redirect_from:
 
 {% include base_path %}
 
-{% assign resume_url = "https://docs.google.com/document/d/e/2PACX-1vRPa8wfJFsarV7apqJH4qY9deZQOQiGL51yglkZjLQF8pcxRqpyBml3f3yBucjOoA/pub" %}
-{% assign resume_embed_url = "https://docs.google.com/document/d/e/2PACX-1vRPa8wfJFsarV7apqJH4qY9deZQOQiGL51yglkZjLQF8pcxRqpyBml3f3yBucjOoA/pub?embedded=true" %}
+{% assign resume_url = "https://drive.google.com/file/d/1MIaEtqylbD3ZpjgSN0d7uOHXytzCakKs/view?usp=sharing" %}
+{% assign resume_embed_url = "https://drive.google.com/file/d/1MIaEtqylbD3ZpjgSN0d7uOHXytzCakKs/preview" %}
 
-You can view my resume here: <a href="{{ resume_url }}" target="_blank" rel="noopener noreferrer">Resume (Google Docs)</a>
+You can view my resume here: <a href="{{ resume_url }}" target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
 
 <div class="resume__embed">
   <iframe
