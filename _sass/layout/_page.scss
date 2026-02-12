@@ -237,6 +237,20 @@
   text-decoration: underline;
 }
 
+.resume__embed {
+  margin: 1rem auto 0;
+  width: 100%;
+}
+
+.resume__embed iframe {
+  display: block;
+  width: 100%;
+  height: 1300px;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background: #fff;
+}
+
 @media screen and (min-width: 1024px) {
   .resume__layout {
     grid-template-columns: 220px minmax(0, 1fr);
