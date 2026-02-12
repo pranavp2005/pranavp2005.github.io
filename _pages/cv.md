@@ -10,9 +10,19 @@ redirect_from:
 
 {% include base_path %}
 
-You can view a PDF version here: [Resume PDF]({{ base_path }}/files/resume.pdf)
+{% assign resume_url = "https://docs.google.com/document/d/e/2PACX-1vRPa8wfJFsarV7apqJH4qY9deZQOQiGL51yglkZjLQF8pcxRqpyBml3f3yBucjOoA/pub" %}
+{% assign resume_embed_url = "https://docs.google.com/document/d/e/2PACX-1vRPa8wfJFsarV7apqJH4qY9deZQOQiGL51yglkZjLQF8pcxRqpyBml3f3yBucjOoA/pub?embedded=true" %}
 
-*Note: Uncomment the backup block below to restore the full Resume/CV page content.*
+You can view my resume here: <a href="{{ resume_url }}" target="_blank" rel="noopener noreferrer">Resume (Google Docs)</a>
+
+<iframe
+  src="{{ resume_embed_url }}"
+  title="Pranav Pateriya Resume"
+  loading="lazy"
+  style="width: 100%; min-height: 1100px; border: 1px solid var(--global-border-color); border-radius: 6px; background: #fff;"
+></iframe>
+
+<!-- Note: Uncomment the backup block below to restore the full Resume/CV page content. -->
 
 <!--
 Backup of previous Resume/CV page content:
@@ -29,7 +39,7 @@ Backup of previous Resume/CV page content:
   </aside>
   <div class="resume__main" markdown="1">
 
-You can download a PDF version here: [Resume PDF]({{ base_path }}/files/resume.pdf)
+You can view my resume here: <a href="https://docs.google.com/document/d/e/2PACX-1vRPa8wfJFsarV7apqJH4qY9deZQOQiGL51yglkZjLQF8pcxRqpyBml3f3yBucjOoA/pub" target="_blank" rel="noopener noreferrer">Resume (Google Docs)</a>
 
 ## Summary {#summary}
 - Computer Science graduate student at Stony Brook University, specializing in computer systems and having 3+ years of professional experience. Passionate about scalable and reliable infrastructure engineering and high-performance big data systems. Available for internships for Summer 2026 and full-time roles starting May 2027
