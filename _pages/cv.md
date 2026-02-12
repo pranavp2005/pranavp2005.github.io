@@ -15,12 +15,13 @@ redirect_from:
 
 You can view my resume here: <a href="{{ resume_url }}" target="_blank" rel="noopener noreferrer">Resume (Google Docs)</a>
 
-<iframe
-  src="{{ resume_embed_url }}"
-  title="Pranav Pateriya Resume"
-  loading="lazy"
-  style="width: 100%; min-height: 1100px; border: 1px solid var(--global-border-color); border-radius: 6px; background: #fff;"
-></iframe>
+<div class="resume__embed">
+  <iframe
+    src="{{ resume_embed_url }}"
+    title="Pranav Pateriya Resume"
+    loading="lazy"
+  ></iframe>
+</div>
 
 <!-- Note: Uncomment the backup block below to restore the full Resume/CV page content. -->
 
