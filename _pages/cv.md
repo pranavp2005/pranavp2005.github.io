@@ -10,6 +10,13 @@ redirect_from:
 
 {% include base_path %}
 
+You can view a PDF version here: [Resume PDF]({{ base_path }}/files/resume.pdf)
+
+*Note: Uncomment the backup block below to restore the full Resume/CV page content.*
+
+<!--
+Backup of previous Resume/CV page content:
+
 <div class="resume__layout">
   <aside class="resume__toc" aria-label="Resume sections">
     <h3 class="resume__toc-title">Sections</h3>
@@ -46,3 +53,4 @@ You can download a PDF version here: [Resume PDF]({{ base_path }}/files/resume.p
 
   </div>
 </div>
+-->
