@@ -10,8 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
-{% assign resume_url = "https://drive.google.com/file/d/1MIaEtqylbD3ZpjgSN0d7uOHXytzCakKs/view?usp=sharing" %}
-{% assign resume_embed_url = "https://drive.google.com/file/d/1MIaEtqylbD3ZpjgSN0d7uOHXytzCakKs/preview" %}
+{% assign resume_url = "https://drive.google.com/file/d/1T_FMikcNmXaQXgD_CRVUUA7Sxp3Y4DI4/view?usp=sharing" %}
+{% assign resume_embed_url = "https://drive.google.com/file/d/1T_FMikcNmXaQXgD_CRVUUA7Sxp3Y4DI4/preview" %}
 
 You can view my resume here: <a href="{{ resume_url }}" target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
 
